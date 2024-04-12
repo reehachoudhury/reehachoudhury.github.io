@@ -8,6 +8,10 @@ nav {
     background-color: transparent;
 }
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav-buttons {
     display: flex;
     justify-content: space-evenly;
@@ -17,4 +21,5 @@ nav {
 .nav-button {
     border: none;
     background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
 }
