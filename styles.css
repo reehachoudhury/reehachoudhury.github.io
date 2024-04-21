@@ -1,49 +1,7 @@
-
-@font-face {
-    font-family: 'brother-signature';
-    src: url('Fonts/brother-signature-font (1)/BrotherSignature-7BWnK.otf') format('truetype');
-}
-@font-face {
-    font-family: 'bemirs';
-    src: url('Fonts/bemirs-font/BemirsDemoVersionRegular-X361d.otf') format('truetype');
-}
-
-
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: none;
-    padding: none;
-}
-
-.name-header {
-    border: none;
-    background-color: transparent;
-}
-
-h1 {
-    font-family: 'brother-signature', Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 3rem;
-}
-
-.nav-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.nav-button {
-    border: none;
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
