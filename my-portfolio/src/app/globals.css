@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'brother-signature';
+  src: url('/Fonts/brother-signature-font (1)/BrotherSignature-7BWnK.otf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'brother-signature', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+footer {
+  position: relative; 
+  width: 100%; 
+  bottom: 0; 
+  margin: 0;
+  padding: 0;
+  background-color: #bbcdae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color:hsl(0, 0%, 0%);
+}
+
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
